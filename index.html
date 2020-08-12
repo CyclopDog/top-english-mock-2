@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./imgs/flags-38754.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Top English</title>
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 top-english box order-0 order-md-0">
+            <div class="text">
+              <p>TOP ENGLISH</p>
+              <p>
+                Estude inglês em uma das mais conceituadas escolas. <br />
+                Conquiste a fluência em 2 anos e viva uma experiência única!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 form box order-3 order-md-1">
+            <p>Não perca tempo! Entre em contato agora mesmo:</p>
+            <div>
+              <form onsubmit="handleSubmit()" class="form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" onchange="handleChange()">
+                <p id="name-error" class="error"></p>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" onchange="handleChange()">
+                <p id="cpf-error" class="error"></p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" onchange="handleChange()">
+                <p id="email-error" class="error"></p>
+                <label for="phone">Telefone</label>
+                <input type="text" name="phone" id="phone" onchange="handleChange()">
+                <p id="phone-error" class="error"></p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <button type="submit">Enviar</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <button type="reset">Limpar</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 success box order-3 order-md-1 hidden">
+            <img src="./imgs/icon-803718.svg" alt="sucesso" />
+            <p>
+              Obrigado pelo seu interesse! <br />
+              Entraremos em contato em breve.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 price box order-1 order-md-2">
+            <p>
+              Apenas <br />
+              24x de R$ 600,00! <br />
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 canada box order-2 order-md-3">
+            <div class="text">
+              <p>EXPERIÊNCIA TOP</p>
+              <p>
+                Intercâmbio de 6 meses no Canadá <br />
+                Sem custos adicionais! <br />
+                Pague apenas passagem, hospedagem e alimentação.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

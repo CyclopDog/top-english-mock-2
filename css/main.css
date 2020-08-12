@@ -1,0 +1,225 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #250025;
+}
+
+.top-english {
+  background-image: url("../imgs/book-791824_640.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-english .text {
+  width: 100%;
+}
+
+.top-english .text p:first-child {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: orange;
+  font-size: 3em;
+  text-align: center;
+  padding: 10px;
+}
+
+.top-english .text p:last-child {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  color: white;
+}
+
+form label,
+form button {
+  margin-top: 10px;
+}
+
+form button {
+  font-size: 2em;
+  cursor: pointer;
+  height: 40px;
+  border: none;
+  opacity: 0.8;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+}
+
+form button[type="submit"] {
+  background-color: orange;
+  border-radius: 20px;
+}
+
+form button[type="reset"] {
+  border-bottom: 1px solid white;
+}
+
+form button:hover {
+  opacity: 1;
+}
+
+form input {
+  height: 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  opacity: 0.8;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+form input:focus {
+  opacity: 1;
+  border: 2px solid orange;
+}
+
+form input.red-border {
+  border: 2px solid red;
+}
+
+.form {
+  padding: 0;
+}
+
+.form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form p {
+  font-size: 30px;
+  color: orange;
+  margin: 5px;
+}
+
+.form .error {
+  background: none;
+  color: red;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: 22px;
+}
+
+.canada {
+  background-image: url("../imgs/airport-2373727_640.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.canada .text {
+  width: 100%;
+}
+
+.canada .text p:first-child {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: orange;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.canada .text p:last-child {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price p {
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: orange;
+  height: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+}
+
+.box {
+  min-height: 50vh;
+  padding: 20px;
+}
+
+.success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.success img {
+  width: 50px;
+}
+
+.success p {
+  color: white;
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
