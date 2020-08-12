@@ -31,7 +31,6 @@ function handleSubmit() {
         if (input.value.length != 11 || !input.value.match(numRegex)) {
           error.innerText = "Insira um CPF válido";
           input.classList.add("red-border");
-          passTest = false;
         } else {
           error.innerText = "";
           input.classList.remove("red-border");
@@ -42,7 +41,6 @@ function handleSubmit() {
         if (!input.value.match(emailRegex)) {
           error.innerText = "Insira um email válido";
           input.classList.add("red-border");
-          passTest = false;
         } else {
           error.innerText = "";
           input.classList.remove("red-border");
@@ -53,7 +51,6 @@ function handleSubmit() {
         if (input.value.length < 8 || !input.value.match(numRegex)) {
           error.innerText = "Insira um telefone válido";
           input.classList.add("red-border");
-          passTest = false;
         } else {
           error.innerText = "";
           input.classList.remove("red-border");
